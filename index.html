@@ -141,20 +141,29 @@
               </div>
               <div class="row justify-content-center">
                   <div class="col-md-6">
-                    <form>
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                      <strong>Thank you!</strong> Your message has been sent.
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <form name="contact-form">
                         <div class="mb-3">
-                            <label for="name" class="form-label">Your Full Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name" />
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="name" placeholder="Your Name" />
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email" />
+                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email" placeholder="Email" />
                         </div>
                         <div class="mb-3">
                             <label for="pesan" class="form-label">Messages / Suggestions</label>
-                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="Messages"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Kirim</button>
+                        <button type="submit" class="btn btn-primary btn-kirim">Send</button>
+
+                        <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                          Loading...
+                        </button>
                     </form>
                   </div>
               </div>
@@ -173,8 +182,38 @@
       </footer>
     <!-- End of Footer -->
 
-    <!-- JavaScript Bundling Script0- -->
+    <!-- JavaScript Bundling Script -->
     <script src="assets/bootstrap.bundle.min.js"></script>
+
+    <!-- Processing Script untuk Memasukkan data ke Google Forms (.gs) -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwsz4S3a8aakIDJkKTYk8Eq95c46OoUXoE3gG9z5F6Mwt42HGkZWHC8kilaqA3-ZKIXGw/exec'
+      const form = document.forms['contact-form'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        // Ketika tombol submit dikirim,
+        // Tampilkan tombol Loading. Hilangkan tombol Kirim.
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            // Setelah Form Berhasil Dikirim, Tampilkan lagi Tombol Kirim, Hilangkan Tombol Loading
+            btnLoading.classList.toggle('d-none');
+            btnLoading.classList.toggle('d-none');
+            // Tampilkan Session Alert Setelah Tombol Kirim Muncul Kembali
+            myAlert.classList.toggle('d-none');
+            // Reset Form nya ketika data di form sudah terkirim
+            form.reset();
+            console.log('Success!', response)
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
 </body>
 
 </html>
