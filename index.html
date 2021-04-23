@@ -212,15 +212,14 @@
           })
           .catch(error => console.error('Error!', error.message))
       })
-    </script>
 
-    <!-- Ajax to prevent user from downloading images file -->
-    $('img').mousedown(function (e) {
+      $('img').mousedown(function (e) {
       if(e.button == 2) {
         return false;
       }
     })
-
+    </script>
+    
 </body>
 
 </html>
