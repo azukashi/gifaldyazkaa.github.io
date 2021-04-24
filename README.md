@@ -6,4 +6,5 @@
 
 - This repo is root folder of <a href="https://gifaldyazkaa.github.io">gifaldyazkaa.github.io</a>.
 - This repo is Specially Presented for My Portofolio.
+- My Portofolio maded pure by HTML, CSS, and later, maybe i'll add JavaScript
 - You can see my Portofolio at <a href="https://gifaldyazkaa.github.io">gifaldyazkaa.github.io</a>.
