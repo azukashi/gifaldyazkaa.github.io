@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://gifaldyazka.is-a.dev/"
+baseurl = "https://cocky-ritchie-0bb1ed.netlify.app/"
 languageCode = "en-us"
 title = "Gifaldy Azka"
 theme = "hugo-stellar-theme"
