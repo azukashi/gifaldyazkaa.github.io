@@ -2,6 +2,7 @@
 baseurl = "https://gifaldyazkaa.vercel.app/"
 languageCode = "en-us"
 title = "Gifaldy Azka"
+author = "Gifaldy Azka"
 theme = "hugo-stellar-theme"
 
 googleAnalytics = "277821425"
@@ -120,6 +121,11 @@ googleAnalytics = "277821425"
 
     [params.footer.social_list]
       enable = true
+
+      [[params.footer.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        link = "https://github.com/gifaldyazkaa"
 
       [[params.footer.social]]
         title = "Twitter"
