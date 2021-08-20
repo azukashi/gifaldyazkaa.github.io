@@ -32,7 +32,7 @@ googleAnalytics = "G-91Y4RNWNF1"
   [params.intro]
     title = "Hello There!"
     description = "Hello there and Welcome! Let me introducing myself, My name is Gifaldy Azka. Front-end Website and Discord Bot Developer. Code and make things at Internet."
-    image = "images/profilepicture.png"
+    image = "images/profilepicture.webp"
 
   [[params.section]]
     id = "skills"
