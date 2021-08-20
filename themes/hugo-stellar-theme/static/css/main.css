@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 /*
 	Stellar by HTML5 UP
@@ -1649,7 +1650,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Lexend", sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
