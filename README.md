@@ -1,8 +1,8 @@
-<h1 align="center"><a href="https://gifaldyazkaa.is-a.dev">gifaldyazkaa.is-a.dev</a></h1>
+<h1 align="center"><a href="https://gifaldyazka.is-a.dev">gifaldyazkaa.is-a.dev</a></h1>
 
 Hello there! Welcome to this repository! This is a Source Code of [gifaldyazka.is-a.dev](https://gifaldyazka.is-a.dev) website. Created using [Hugo](https://gohugo.io). The world’s fastest framework for building websites. Most popular open-source static site generators (SSG). Written in Golang.
 
-![Preview Image](https://cdn.upload.systems/uploads/i7ic7OwJ.png)
+[![Preview Image](https://cdn.upload.systems/uploads/UoJWoxyy.png)](https://gifaldyazka.is-a.dev)
 
 # Domains
 
