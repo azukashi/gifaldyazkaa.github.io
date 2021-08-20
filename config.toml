@@ -54,11 +54,11 @@ googleAnalytics = "277821425"
         title = "Communication"
         description = "Very Important things to communicate with Other Developers, Client, or whoever."
         icon = "fa-comment-o"
-    [params.section.footer]
-      enable = true
-      [[params.section.footer.action]]
-        buttontext = "Learn More"
-        buttonUrl = "generic.html"
+    # [params.section.footer]
+    #   enable = true
+    #   [[params.section.footer.action]]
+    #     buttontext = "Learn More"
+    #     buttonUrl = "generic.html"
 
   [[params.section]]
     id = "projects"
