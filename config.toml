@@ -87,9 +87,9 @@ googleAnalytics = "G-91Y4RNWNF1"
 
     [params.section.content]
       enable = true
-      text1 = "[1# Exxyll - Multipurpose Discord Bot](https://exxyll.github.io)"
-      text2 = "[2# Wangy-wangy Generator](https://gifaldyazka.is-a.dev/wangy-wangy)"
-      text3 = "[3# Static Weather App](https://gifaldyazka.is-a.dev/weather)"
+      text1 = "[1# 🤖 Exxyll - Multipurpose Discord Bot](https://exxyll.github.io)"
+      text2 = "[2# 🌺 Wangy-wangy Generator](https://gifaldyazka.is-a.dev/wangy-wangy)"
+      text3 = "[3# ⛅ Static Weather App](https://gifaldyazka.is-a.dev/weather)"
 
     [params.section.footer]
       enable = true
