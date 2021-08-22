@@ -58,7 +58,9 @@
 
                   <!-- section content -->
                   {{ if $section.content.enable }}
-                    <p class="content">{{ $section.content.text }}</p>
+                    <p class="content">{{ $section.content.text1 | markdownify }}</p>
+                    <p class="content">{{ $section.content.text2 | markdownify }}</p>
+                    <p class="content">{{ $section.content.text3 | markdownify }}</p>
                   {{ end }}
                   
                   <!-- section footer/cta -->

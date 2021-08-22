@@ -26,6 +26,10 @@ googleAnalytics = "G-91Y4RNWNF1"
     href = "#projects"
 
   [[params.navigation]]
+    name = "Blog"
+    href = "#blogs"
+
+  [[params.navigation]]
     name = "Contact"
     href = "#contact"
 
@@ -38,7 +42,7 @@ googleAnalytics = "G-91Y4RNWNF1"
     id = "skills"
     title = "Skills"
     description = ""
-    
+
     [params.section.features]
       enable = true
       [[params.section.feature]]
@@ -82,15 +86,27 @@ googleAnalytics = "G-91Y4RNWNF1"
         text = "Total Projects"
 
     [params.section.content]
-      enable = false
-      text = "<a href='https://exxyll.github.io'><b>1#</b> Exxyll - A Multipurose Discord Bot</a>"
+      enable = true
+      text1 = "[1# Exxyll - Multipurpose Discord Bot](https://exxyll.github.io)"
+      text2 = "[2# Wangy-wangy Generator](https://gifaldyazka.is-a.dev/wangy-wangy)"
+      text3 = "[3# Static Weather App](https://gifaldyazka.is-a.dev/weather)"
 
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "See Project List"
+        buttontext = "See Full Project List"
         buttonUrl = "https://github.com/gifaldyazkaa?tab=repositories"
 
+  [[params.section]]
+    id = "blogs"
+    title = "Blog"
+    description = "Sometimes, I'm create, writing, and publishing a blogs to this website. About anything, any topics in Bahasa Indonesia. You can read it if you want. Feel free to commenting!"
+    [params.section.footer]
+      enable = true
+    [[params.section.footer.action]]
+      buttontext = "Read Blog"
+      buttonUrl = "content"
+      customClass = "special"
 
   [[params.section]]
     id = "contact"
@@ -149,4 +165,4 @@ googleAnalytics = "G-91Y4RNWNF1"
 
     [params.footer.copyright]
       enable = true
-      text = "© Gifaldy Azka 2021"
+      text = "© [Gifaldy Azka](#) 2021"
