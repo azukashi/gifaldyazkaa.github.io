@@ -1,4 +1,4 @@
-name: \[Deploy] Build
+name: "[Deploy] Build"
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}

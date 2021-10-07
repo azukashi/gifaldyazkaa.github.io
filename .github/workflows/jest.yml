@@ -1,4 +1,4 @@
-name: \[Jest] Testing Unit
+name: "[Jest] Testing Unit"
 on: [push, pull_request]
 
 jobs:
