@@ -1,6 +1,6 @@
 # [gifaldyazka.is-a.dev](https://gifaldyazka.is-a.dev)
 
-My Personal Website. Created using React JS, GraphQL, etc.
+![Image Preview](https://cdn.upload.systems/uploads/y64npnFv.png)
 
 ## Getting Started
 
