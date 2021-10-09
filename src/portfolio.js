@@ -5,7 +5,7 @@ import emoji from "react-easy-emoji";
 // Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -14,7 +14,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Front-end Website Developer. Having an experience of building Web  with JavaScript,  Svelte, Node.js, and some other cool libraries and frameworks."
   ),
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -26,7 +26,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/falcxx",
   instagram: "https://instagram.com/falcxxdev",
   twitter: "https://twitter.com/gifaldyazkaa",
-  display: true
+  display: true,
 };
 
 // Skills Section
@@ -36,7 +36,7 @@ const skillsSection = {
   subTitle: "Just a Front-end developer which want to learn every tech stack",
   skills: [
     emoji("⚡ Developing interactive Front end / User Interfaces for websites"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -45,42 +45,42 @@ const skillsSection = {
   softwareSkills: [
     {
       skillName: "HTML 5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "CSS 3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fab fa-sass",
     },
     {
       skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap"
+      fontAwesomeClassname: "fab fa-bootstrap",
     },
     {
       skillName: "React JS",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "Node JS",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node",
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-npm",
     },
     {
       skillName: "discord-js",
-      fontAwesomeClassname: "fab fa-discord"
-    }
+      fontAwesomeClassname: "fab fa-discord",
+    },
   ],
-  display: true
+  display: true,
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -90,18 +90,18 @@ const techStack = {
   experience: [
     {
       Stack: "Front-end",
-      progressPercentage: "70%"
+      progressPercentage: "70%",
     },
     {
       Stack: "Back-end",
-      progressPercentage: "30%"
+      progressPercentage: "30%",
     },
     {
       Stack: "Discord Bots",
-      progressPercentage: "60%"
-    }
+      progressPercentage: "60%",
+    },
   ],
-  displayCodersrank: false
+  displayCodersrank: false,
 };
 
 // Work experience section
@@ -114,28 +114,28 @@ const workExperiences = {
       company: "Front-end Developer",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "From December 19, 2020",
-      desc: "Being a Front-end Developer. First-time learned HTML and CSS. Now currently learning React, Vue, and Svelte."
+      desc: "Being a Front-end Developer. First-time learned HTML and CSS. Now currently learning React, Vue, and Svelte.",
     },
     {
       role: "Discord Bot Development",
       company: "Discord Bot Development",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "From January 14, 2021",
-      desc: "Started Developing a Discord Bots with Javascript and Discord.js Library. Experienced with Multipurpose Discord Bots"
-    }
-  ]
+      desc: "Started Developing a Discord Bots with Javascript and Discord.js Library. Experienced with Multipurpose Discord Bots",
+    },
+  ],
 };
 
 const openSource = {
   showGithubProfile: "true",
-  display: true
+  display: true,
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Let's get a touch with me! Wanna say hi? Feel free to reach me.",
   number: "+62 859-5072-4294",
-  email_address: "gifaldyazka@yahoo.com"
+  email_address: "gifaldyazka@yahoo.com",
 };
 
 export {
@@ -146,5 +146,5 @@ export {
   techStack,
   workExperiences,
   openSource,
-  contactInfo
+  contactInfo,
 };
