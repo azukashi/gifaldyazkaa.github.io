@@ -60,6 +60,10 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-sass"
     },
     {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
       skillName: "React JS",
       fontAwesomeClassname: "fab fa-react"
     },
