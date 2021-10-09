@@ -80,7 +80,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-discord",
     },
     {
-      skillName: "Shell"
+      skillName: "Shell",
       fontAwesomeClassname: "fas fa-terminal",
     }
   ],
