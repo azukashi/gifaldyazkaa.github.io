@@ -21,8 +21,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
 
-      - name: Install
+      - name: Install dependecies
         run: yarn install
 
-      - name: Lint
+      - name: Run tests
         run: yarn run test
