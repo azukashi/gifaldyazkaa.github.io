@@ -123,7 +123,7 @@ const workExperiences = {
     {
       role: "Discord Bot Development",
       company: "Discord Bot Development",
-      companylogo: require("./assets/images/discord.png"),
+      companylogo: require("./assets/images/discord.jpg"),
       date: "January 14, 2021 - Present",
       desc: "Started Developing a Discord Bots with Javascript and Discord.js Library. Experienced with Multipurpose Discord Bots",
     },
