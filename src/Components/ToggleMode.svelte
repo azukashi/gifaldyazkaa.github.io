@@ -15,12 +15,6 @@
       localStorage.removeItem('theme');
     }
   };
-
-  if (localStorage.getItem('theme') === 'dark') {
-    darkMode = true;
-  } else {
-    darkMode = false;
-  }
 </script>
 
 <div id="btn-toggle">
