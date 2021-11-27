@@ -2,9 +2,9 @@
 
 <hr />
 
-## Getting Started
+## ➡️ Getting Started
 
-### Clone this Repository
+### 📥 Clone this Repository
 
 ```sh
 # Using Git
@@ -16,13 +16,13 @@ $ gh repo clone gifaldyazkaa/gifaldyazkaa.github.io
 $ cd gifaldyazkaa.github.io
 ```
 
-### Install all dependecies
+### 📦 Install all dependecies
 
 ```sh
 $ yarn install
 ```
 
-### Run the app in Development server
+### 🏃 Run the app in Development server
 
 ```sh
 # Using yarn
@@ -44,7 +44,7 @@ $ yarn run build
 $ dum build
 ```
 
-## Tech Stack
+## 🖥️ Tech Stack
 
 - [Svelte (TypeScript)](https://svelte.dev)
 - [Bootstrap](https://npmjs.com/package/bootstrap)
@@ -55,6 +55,6 @@ $ dum build
 - [svelte-fa](https://npmjs.com/package/svelte-fa)
 - [svelte-seo](https://npmjs.com/package/svelte-seo)
 
-## License
+## 📜 License
 
 This Project is Licensed Under [Apache-2.0](./LICENSE)
