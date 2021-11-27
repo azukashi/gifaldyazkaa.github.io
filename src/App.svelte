@@ -24,11 +24,11 @@
   />
   <meta
     name="og:image"
-    content="https://cdn.upload.systems/uploads/Q1CGS4P0.png"
+    content="https://cdn.upload.systems/uploads/F7WMmXA2.png"
   />
   <meta
     name="twitter:image"
-    content="https://cdn.upload.systems/uploads/Q1CGS4P0.png"
+    content="https://cdn.upload.systems/uploads/F7WMmXA2.png"
   />
 </svelte:head>
 
@@ -41,7 +41,7 @@
     type: 'website',
     images: [
       {
-        url: 'https://cdn.upload.systems/uploads/Q1CGS4P0.png',
+        url: 'https://cdn.upload.systems/uploads/F7WMmXA2.png',
         width: 1365,
         height: 613,
         alt: 'Site Preview',
