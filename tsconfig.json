@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "rootDirs": ["src/"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}

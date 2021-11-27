@@ -1,0 +1,11 @@
+# Build Result
+public/build
+
+# TypeScript Build Result
+dist/
+
+# Modules
+node_modules/
+
+# Rollup Config
+rollup.config.js
