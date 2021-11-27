@@ -46,11 +46,11 @@ $ dum build
 
 ## 🖥️ Tech Stack
 
+- [@fortawesome/fontawesome-free](https://npmjs.com/package/@fortawesome/fontawesome-free)
+- [@fortawesome/free-solid-svg-icons](https://npmjs.com/package/@fortawesome/free-solid-svg-icons)
 - [Svelte (TypeScript)](https://svelte.dev)
 - [Bootstrap](https://npmjs.com/package/bootstrap)
 - [sveltestrap](https://sveltestrap.js.org)
-- [@fortawesome/fontawesome-free](https://npmjs.com/package/@fortawesome/fontawesome-free)
-- [@fortawesome/free-solid-svg-icons](https://npmjs.com/package/@fortawesome/free-solid-svg-icons)
 - [svelte-emoji](https://npmjs.com/package/svelte-emoji)
 - [svelte-fa](https://npmjs.com/package/svelte-fa)
 - [svelte-seo](https://npmjs.com/package/svelte-seo)
