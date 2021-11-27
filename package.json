@@ -14,7 +14,7 @@
     "deploy": "gh-pages -b master -d public"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
     "@tsconfig/svelte": "^2.0.0",
