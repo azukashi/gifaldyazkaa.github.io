@@ -34,6 +34,16 @@ dum dev
 
 ### :tada: Open http://localhost:3000 to see the result!
 
+### ⚡ Optimizing for Production
+
+```sh
+# Using yarn
+$ yarn run build
+
+# Using dum
+$ dum build
+```
+
 ## Tech Stack
 
 - [Svelte (TypeScript)](https://svelte.dev)
