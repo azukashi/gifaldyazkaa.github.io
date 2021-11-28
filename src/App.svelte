@@ -16,22 +16,6 @@
     links: any;
 </script>
 
-<svelte:head>
-  <title>Home | Gifaldy Azka</title>
-  <meta
-    name="description"
-    content="Hello there! I'm Gifaldy Azka, Fullstack website Developer from Indonesia!"
-  />
-  <meta
-    name="og:image"
-    content="https://cdn.upload.systems/uploads/F7WMmXA2.png"
-  />
-  <meta
-    name="twitter:image"
-    content="https://cdn.upload.systems/uploads/F7WMmXA2.png"
-  />
-</svelte:head>
-
 <SvelteSeo
   openGraph={{
     title: 'Home | Gifaldy Azka',
@@ -47,14 +31,6 @@
         alt: 'Site Preview',
       },
     ],
-  }}
-  twitter={{
-    site: '@gifaldyazkaa',
-    title: 'Home | Gifaldy Azka',
-    description:
-      "Hello there! I'm Gifaldy Azka, Fullstack website Developer from Indonesia!",
-    image: 'https://cdn.upload.systems/uploads/Q1CGS4P0.png',
-    imageAlt: 'Site Preview',
   }}
 />
 
