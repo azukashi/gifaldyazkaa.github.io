@@ -12,7 +12,7 @@
     "check-format": "prettier -c ."
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.32",
     "@tsconfig/svelte": "^2.0.1",
     "prettier": "^2.5.1",
     "svelte": "^3.44.0",
