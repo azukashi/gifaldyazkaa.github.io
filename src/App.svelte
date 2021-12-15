@@ -1,0 +1,66 @@
+<script lang="ts">
+  import logo from './assets/koyori-excited.png';
+</script>
+
+<div id="root">
+  <img src={logo} alt="Koyori Excited" />
+  <h1>🧪 This website is under construction~!</h1>
+  <p>
+    This website is closed and currently in development until furter
+    information. Please comeback again soon, ありがとう〜！
+  </p>
+</div>
+<div id="footer">
+  <h6 id="art-credits">
+    Art credits by : <a href="https://twitter.com/V33983897">やさしいV</a>
+  </h6>
+  <h6 id="dev">
+    This website is created with <a href="https://vitejs.dev">Vite</a> +
+    <a href="https://svelte.dev">Svelte</a> by
+    <a href="https://github.com/gifaldyazkaa">Gifaldy Azka</a>
+  </h6>
+</div>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+  #root,
+  #footer {
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    font-family: 'Lexend', sans-serif;
+  }
+  #root h1 {
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+  }
+  #root p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  #footer h6 {
+    margin-top: 0.13rem;
+    color: rgb(123, 120, 120);
+  }
+  #footer a {
+    text-decoration: none;
+    color: rgb(66, 66, 218);
+  }
+  #footer a:visited {
+    color: rgb(66, 66, 218);
+  }
+  #footer a:hover {
+    color: rgb(45, 45, 153);
+  }
+  img {
+    margin-top: 2rem;
+    width: 363px;
+    height: 263px;
+  }
+
+  @media (min-width: 480px) {
+    h1 {
+      max-width: none;
+    }
+  }
+</style>

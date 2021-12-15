@@ -1,0 +1,25 @@
+{
+  "name": "vite-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vite --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host=0.0.0.0",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier -w .",
+    "check-format": "prettier -c ."
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tsconfig/svelte": "^2.0.1",
+    "prettier": "^2.5.1",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.7",
+    "svelte-preprocess": "^4.9.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}
