@@ -6,7 +6,8 @@
   <img src={logo} alt="Koyori Excited" />
   <h1>🧪 This website is under construction~!</h1>
   <p>
-    This website is closed and currently in development until furter
+    This website is closed and currently in development until further
+    <br />
     information. Please comeback again soon, ありがとう〜！
   </p>
 </div>
@@ -15,9 +16,8 @@
     Art credits by : <a href="https://twitter.com/V33983897">やさしいV</a>
   </h6>
   <h6 id="dev">
-    This website is created with <a href="https://vitejs.dev">Vite</a> +
-    <a href="https://svelte.dev">Svelte</a> by
-    <a href="https://github.com/gifaldyazkaa">Gifaldy Azka</a>
+    This website is created with <a href="https://vitejs.dev">Vite</a>{' + '}
+    <a href="https://svelte.dev">Svelte</a>
   </h6>
 </div>
 
