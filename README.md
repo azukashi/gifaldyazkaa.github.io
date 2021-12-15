@@ -1,4 +1,4 @@
-[![Site Preview](https://cdn.upload.systems/uploads/cVNELzos.png)](https://gifaldyazka.is-a.dev)
+[![Site Preview](https://cdn.upload.systems/uploads/PqAHuumG.png)](https://gifaldyazka.is-a.dev)
 
 ---
 
