@@ -56,6 +56,7 @@
     margin-top: 2rem;
     width: 363px;
     height: 263px;
+    pointer-events: none;
   }
 
   @media (min-width: 480px) {
