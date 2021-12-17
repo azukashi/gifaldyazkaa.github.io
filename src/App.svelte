@@ -12,7 +12,7 @@
   </p>
   <div id="info">
     <h4>This website will be back soon and ready at :</h4>
-    <h2>December 31, 2021 16:00:00 JST</h2>
+    <h2>December 31, 2021 16:00 JST</h2>
   </div>
 </div>
 <div id="footer">
