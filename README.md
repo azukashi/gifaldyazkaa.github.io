@@ -54,7 +54,7 @@ $ dum preview
 - [SASS](https://sass-lang.com)
 - [Svelte](https://svelte.dev)
 - [Vite](https://vitejs.dev)
-- [vite-plugin-pwa](https://vite-plugin-pwa.netlify.app)
+- [Vite Plugin PWA](https://vite-plugin-pwa.netlify.app)
 - [Workbox](https://developers.google.com/web/tools/workbox)
 
 ## ❤️ Credits
