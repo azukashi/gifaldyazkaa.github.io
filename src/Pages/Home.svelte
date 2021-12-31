@@ -36,7 +36,7 @@
     cursor: default;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 150px;
+    padding-bottom: 250px;
   }
   #button {
     height: 2rem;
