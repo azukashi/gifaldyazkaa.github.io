@@ -1,9 +1,9 @@
 <script lang="ts">
   import { blur } from 'svelte/transition';
   export let self;
-  const handleClick = () => {
-    window.location.href = '/about';
-  };
+  // const handleClick = () => {
+  //   window.location.href = '/about';
+  // };
 </script>
 
 <svelte:head>
@@ -23,7 +23,7 @@
       <br />
       Website developer
     </h1>
-    <button id="button" on:click={handleClick}>About me →</button>
+    <!-- <button id="button" on:click={handleClick}>About me →</button> -->
   </section>
 </main>
 
@@ -38,7 +38,7 @@
     font-family: 'Poppins', sans-serif;
     padding-bottom: 250px;
   }
-  #button {
+  /* #button {
     height: 2rem;
     width: 7.4rem;
     margin-top: 1rem;
@@ -55,5 +55,5 @@
   #button:hover {
     background-color: var(--text-color);
     color: var(--container-color);
-  }
+  } */
 </style>
