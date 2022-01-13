@@ -30,7 +30,7 @@ $ yarn install
 $ yarn run dev
 
 # Using dum
-dum dev
+$ dum dev
 ```
 
 ### :tada: Open http://localhost:3000 to see the result!
