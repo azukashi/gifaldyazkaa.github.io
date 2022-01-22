@@ -60,7 +60,7 @@ $ dum preview
 ## ❤️ Credits
 
 - [Kona](https://twitter.com/konathegaymer) for the Website Favicon
-- [kiki-yu](https://twitter.com/kikiyu698) for my profile picture
+- [kiki-yu](https://twitter.com/kikiyu698) for My Profile Picture
 
 ## 📜 License
 
