@@ -1,6 +1,6 @@
 <script lang="ts">
   import { blur } from 'svelte/transition';
-  export let self, socials, credits;
+  export let self, socials, games, credits;
 </script>
 
 <svelte:head>
@@ -22,7 +22,7 @@
       > or via socials below :
     </p>
   </div>
-  <div id="image-container">
+  <div class="image-container">
     {#each socials as { name, url, imgUrl }}
       <a href={url} target="_blank" class="lnk">
         <img class="image" src={imgUrl} alt="Social - {name}" />
@@ -36,6 +36,24 @@
       <br />
       So, Reach me via email or socials instead of using form input.
     </p>
+  </div>
+  <div id="discord">
+    <h2 id="discord-title">Me at Discord</h2>
+    <a href="https://discord.com/users/788260234409672754">
+      <img
+        id="discord-card"
+        src="https://lanyard-profile-readme.vercel.app/api/788260234409672754?theme=light"
+        alt="Discord Card"
+      />
+    </a>
+  </div>
+  <div id="game">
+    <h2 id="game-title">Play with me</h2>
+    <div class="image-container">
+      {#each games as { name, imgUrl }}
+        <img id="game-badge" class="image" src={imgUrl} alt={name} />
+      {/each}
+    </div>
   </div>
   <div id="credits">
     <h2 id="credits-title">Credits</h2>
@@ -85,11 +103,11 @@
   #secdesc p {
     margin-top: 15px;
   }
-  #image-container {
+  .image-container {
     margin-top: 10px;
     margin-right: 5px;
   }
-  #image-container img {
+  .image-container img {
     border-radius: 1vh;
   }
   #we-hate-form-input p {
@@ -97,6 +115,8 @@
     font-size: 12px;
   }
   /* Credits section */
+  #discord-title,
+  #game-title,
   #credits-title {
     margin-top: 15px;
     color: var(--title-color);
@@ -109,5 +129,11 @@
     margin-top: 3px;
     font-size: 14px;
     padding-bottom: 90px;
+  }
+  #discord-card {
+    margin-top: 9px;
+  }
+  #game-badge {
+    margin-right: 3px;
   }
 </style>
