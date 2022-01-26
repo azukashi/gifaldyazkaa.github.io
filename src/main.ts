@@ -50,6 +50,18 @@ const app = new App({
           'https://img.shields.io/badge/-XDA%20Developers-%23EA7100?style=for-the-badge&logo=xda-developers&logoColor=white',
       },
     ],
+    games: [
+      {
+        name: 'Azur Lane',
+        imgUrl:
+          'https://img.shields.io/badge/%E2%9A%93%20Azur%20Lane-72493403%20(Avrora)-%233399ff?style=for-the-badge',
+      },
+      {
+        name: 'Honkai Impact 3rd',
+        imgUrl:
+          'https://img.shields.io/badge/Honkai%20Impact%203rd-18465860%20(SEA)-%23ff9933?style=for-the-badge&logo=hack-club&logoColor=white',
+      },
+    ],
     projects: [
       {
         name: '湊あくあ Fanpage',
