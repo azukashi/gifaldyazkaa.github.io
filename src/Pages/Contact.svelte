@@ -96,6 +96,9 @@
     margin-left: 18px;
     cursor: default;
   }
+  img {
+    pointer-events: none;
+  }
   /* Main section */
   .section__title {
     font-family: 'Lexend', sans-serif;
