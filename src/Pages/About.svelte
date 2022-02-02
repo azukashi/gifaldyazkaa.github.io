@@ -30,8 +30,8 @@
     </p>
     <br />
     <p>
-      I started learning about Web development since 2020 with C++ language. And
-      now i spend more time to explore Web development using JavaScript,
+      I started learning about Data and Algorithm since 2020 with C++ language.
+      And now i spend more time to explore Web development using JavaScript,
       Node.js, and Svelte.
     </p>
     <br />
