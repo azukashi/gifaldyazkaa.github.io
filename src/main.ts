@@ -54,13 +54,8 @@ const app = new App({
       {
         name: 'Azur Lane',
         imgUrl:
-          'https://img.shields.io/badge/%E2%9A%93%20Azur%20Lane-72493403%20(Avrora)-%233399ff?style=for-the-badge',
-      },
-      {
-        name: 'Honkai Impact 3rd',
-        imgUrl:
-          'https://img.shields.io/badge/Honkai%20Impact%203rd-18465860%20(SEA)-%23ff9933?style=for-the-badge&logo=hack-club&logoColor=white',
-      },
+          'https://img.shields.io/badge/Azur%20Lane-72493403%20(EN%20Avrora)-%233399ff?logo=codeship&style=for-the-badge',
+      }
     ],
     projects: [
       {
@@ -90,27 +85,21 @@ const app = new App({
         emoji: '🧪',
       },
       {
-        name: 'Wangy-wangy Generator',
+        name: 'Dotfiles',
         description:
-          'Generator Tools that created for fun and designed for weebs',
-        repo_name: 'wangy-wangy',
-        demo_url: 'https://gifaldyazka.is-a.dev/wangy-wangy',
-        img_preview: 'https://i.upload.systems/swJC6mZ8',
+          'My dotfiles configuration for i3-gaps',
+        repo_name: 'dotfiles',
+        demo_url: 'None',
+        img_preview: 'https://i.upload.systems/1pukVaLj',
         emoji: '🌸',
       },
     ],
     credits: [
       {
-        type: 'Website Favicon',
-        artist: 'Kona',
-        username: 'konathegaymer',
-        tweets: 'https://twitter.com/konathegaymer/status/1467020091128782848',
-      },
-      {
         type: 'My Profile Picture',
-        artist: 'kiki-yu',
-        username: 'kikiyu698',
-        tweets: 'https://twitter.com/kikiyu698/status/1467777868868747265',
+        artist: 'divergenceok',
+        username: 'divergenceok',
+        tweets: 'https://twitter.com/divergenceok/status/1465697613152354309',
       },
     ],
   },
