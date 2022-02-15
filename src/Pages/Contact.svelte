@@ -67,7 +67,7 @@
           <li>
             {type} is drawn by
             <a href="https://twitter.com/{username}">{artist}</a>
-            | <a href={tweets}>See tweets</a>
+            | <a href={tweets}>See tweet</a>
           </li>
         </ul>
       {/each}
@@ -92,6 +92,7 @@
     color: rgb(18, 18, 211);
   }
   li {
+    font-family: 'Lexend', sans-serif;
     list-style: disc;
     margin-left: 18px;
     cursor: default;
@@ -126,6 +127,7 @@
   }
   #credits #desc {
     margin-top: 3px;
+    margin-bottom: 5px;
     font-size: 13px;
   }
   #credits #list {

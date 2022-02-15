@@ -40,11 +40,53 @@
       I can't control myself when watching their livestream. Hehehe...
     </p>
   </div>
+  <div id="skills">
+    <h2 class="pb">Skills</h2>
+    <div class="grid-container">
+      <div class="tech-stack">
+        <h4 class="pb">Languages</h4>
+        <ul>
+          <li>C++</li>
+          <li>Shell Script</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>YAML</li>
+        </ul>
+      </div>
+      <div class="tech-stack">
+        <h4 class="pb">Front-end</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SASS</li>
+          <li>Svelte</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+      <div class="tech-stack">
+        <h4 class="pb">Back-end</h4>
+        <ul>
+          <li>Node.js</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+      <div class="tech-stack">
+        <h4 class="pb">Tools</h4>
+        <ul>
+          <li>Git</li>
+          <li>Vim & Neovim</li>
+          <li>Visual Studio Code</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <style>
   /* Base */
   h2,
+  h4,
   p {
     font-family: 'Lexend', sans-serif;
     cursor: default;
@@ -57,6 +99,12 @@
   }
   a:visited {
     color: rgb(18, 18, 211);
+  }
+  li {
+    font-family: 'Lexend', sans-serif;
+    list-style: disc;
+    margin-left: 18px;
+    cursor: default;
   }
   /* Main section */
   #image-container {
@@ -73,7 +121,23 @@
     text-align: center;
     pointer-events: none;
   }
+  .pb {
+    padding-bottom: 7px;
+  }
   #paragraph {
+    padding-bottom: 20px;
+  }
+  #skills {
     padding-bottom: 90px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+  }
+  .tech-stack {
+    display: flex;
+    -webkit-box-align: start;
+    flex-direction: column;
+    padding-bottom: 7px;
   }
 </style>
