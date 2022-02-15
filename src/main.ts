@@ -90,13 +90,19 @@ const app = new App({
         repo_name: 'dotfiles',
         demo_url: 'None',
         img_preview: 'https://i.upload.systems/1pukVaLj',
-        emoji: '🌸',
+        emoji: '🔧',
       },
     ],
     credits: [
       {
+        type: 'Website Favicon',
+        artist: '@13_ikari',
+        username: '13_ikari',
+        tweets: 'https://twitter.com/13_ikari/status/1475820302420840453'
+      },
+      {
         type: 'My Profile Picture',
-        artist: 'divergenceok',
+        artist: '@divergenceok',
         username: 'divergenceok',
         tweets: 'https://twitter.com/divergenceok/status/1465697613152354309',
       },
