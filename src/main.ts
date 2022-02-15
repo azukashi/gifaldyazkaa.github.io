@@ -98,7 +98,7 @@ const app = new App({
         type: 'Website Favicon',
         artist: '@13_ikari',
         username: '13_ikari',
-        tweets: 'https://twitter.com/13_ikari/status/1475820302420840453'
+        tweets: 'https://twitter.com/13_ikari/status/1475820302420840453',
       },
       {
         type: 'My Profile Picture',
