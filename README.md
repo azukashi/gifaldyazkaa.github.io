@@ -59,9 +59,9 @@ $ dum preview
 
 ## ❤️ Credits
 
-- [Kona](https://twitter.com/konathegaymer) for the Website Favicon
-- [kiki-yu](https://twitter.com/kikiyu698) for My Profile Picture
+- Website Favicon is drawn by [@13_ikari](https://twitter.com/13_ikari) | [See tweet](https://twitter.com/13_ikari/status/1475820302420840453)
+- My Profile Picture is drawn by [@divergenceok](https://twitter.com/divergenceok) | [See tweet](https://twitter.com/divergenceok/status/1465697613152354309)
 
-## 📜 License
+## 📃 License
 
 [gifaldyazka.is-a.dev](#) is Licensed Under [Apache-2.0](./LICENSE)
