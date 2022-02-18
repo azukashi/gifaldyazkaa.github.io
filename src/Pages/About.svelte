@@ -81,6 +81,17 @@
       </div>
     </div>
   </div>
+  <div id="waifus">
+    <h2 class="pb">Current waifus</h2>
+    <p class="pb">Here are my current waifus</p>
+    <ul>
+      <li>
+        <a href="https://twitter.com/minatoaqua">湊あくあ ／ Minato Aqua</a>
+        from
+        <a href="https://hololive.tv">Hololive Gen 2</a>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <style>
@@ -124,10 +135,11 @@
   .pb {
     padding-bottom: 7px;
   }
-  #paragraph {
+  #paragraph,
+  #skills {
     padding-bottom: 20px;
   }
-  #skills {
+  #waifus {
     padding-bottom: 90px;
   }
   .grid-container {
