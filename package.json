@@ -28,7 +28,7 @@
   "dependencies": {
     "boxicons": "2.1.1",
     "page": "1.11.6",
-    "workbox-recipes": "^6.5.0",
+    "workbox-recipes": "6.5.0",
     "workbox-routing": "6.5.0",
     "workbox-strategies": "6.5.0"
   }
