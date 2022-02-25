@@ -1,0 +1,4 @@
+{
+	"discord.detailsEditing": "📝 {file_name} | {file_size}",
+	"discord.lowerDetailsEditing": "📂 {full_dir_name}"
+}
