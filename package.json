@@ -18,7 +18,7 @@
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "5.12.1",
 		"@typescript-eslint/parser": "5.12.1",
-		"eslint": "8.9.0",
+		"eslint": "8.10.0",
 		"eslint-config-prettier": "8.4.0",
 		"eslint-plugin-svelte3": "3.4.1",
 		"prettier": "2.5.1",
@@ -31,7 +31,6 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-static": "1.0.0-next.28",
-		"@sveltejs/adapter-vercel": "1.0.0-next.44",
 		"boxicons": "2.1.1",
 		"sass": "1.49.9"
 	}
