@@ -59,12 +59,12 @@ export async function get() {
 		waifus: [
 			{
 				name: {
-					jp: '湊あくあ',
-					en: 'Minato Aqua'
+					jp: '浦和ハナコ',
+					en: 'Urawa Hanako'
 				},
-				from: 'Hololive Gen 2',
-				link: 'https://twitter.com/minatoaqua',
-				fromLink: 'https://hololive.tv'
+				from: 'Blue Archive',
+				link: 'https://bluearchive.wiki/wiki/Hanako',
+				fromLink: 'https://bluearchive.jp'
 			},
 			{
 				name: {
