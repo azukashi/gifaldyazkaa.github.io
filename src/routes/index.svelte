@@ -11,7 +11,7 @@
 		}
 		return {
 			status: res.status,
-			error: new Error('Could not fetch the guides')
+			error: new Error('Could not fetch the data')
 		};
 	}
 </script>
