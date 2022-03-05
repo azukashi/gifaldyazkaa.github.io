@@ -27,7 +27,6 @@
 	export let self: any, waifus: any, skills: any;
 	let name = self.name;
 	let avatarUrl = self.avatarUrl;
-	let waifu = waifus;
 	let languageSkills = skills.langSkills;
 	let frontEndSkills = skills.frontEndSkills;
 	let backEndSkills = skills.backEndSkills;
