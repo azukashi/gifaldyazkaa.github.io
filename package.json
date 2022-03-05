@@ -30,7 +30,7 @@
 		"typescript": "4.6.2"
 	},
 	"dependencies": {
-		"@sveltejs/adapter-static": "1.0.0-next.28",
+		"@sveltejs/adapter-static": "1.0.0-next.29",
 		"boxicons": "2.1.1",
 		"sass": "1.49.9"
 	}
