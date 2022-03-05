@@ -5,7 +5,7 @@ export async function get() {
 		// [Self] Your data - Will be displayed at /, /about, /contact
 		self: {
 			name: 'Gifaldy Azka',
-			email: 'falcxxdev@pm.me',
+			email: 'me@falcxxdev.ml',
 			born_and_live_at: 'Bandung, West Java, Indonesia',
 			avatarUrl: 'https://avatars.githubusercontent.com/u/68645946'
 		},
