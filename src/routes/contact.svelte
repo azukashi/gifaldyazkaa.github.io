@@ -1,16 +1,28 @@
 <script lang="ts" context="module">
 	export async function load({ fetch }) {
-		const res = await fetch(`/api/getData.json`);
-		const { data } = await res.json();
-		if (res.ok) {
+		const selfRes = await fetch(`/api/self.json`);
+		const socialRes = await fetch(`/api/socials.json`);
+		const gameRes = await fetch(`/api/games.json`);
+		const creditRes = await fetch(`/api/credits.json`);
+		const cardRes = await fetch(`/api/discordCard.json`);
+		const { self } = await selfRes.json();
+		const { socials } = await socialRes.json();
+		const { games } = await gameRes.json();
+		const { credits } = await creditRes.json();
+		const { discordCard } = await cardRes.json();
+		if (selfRes.ok && socialRes.ok && gameRes.ok && creditRes.ok && cardRes.ok) {
 			return {
 				props: {
-					data
+					self,
+					socials,
+					games,
+					credits,
+					discordCard
 				}
 			};
 		}
 		return {
-			status: res.status,
+			status: socialRes.status,
 			error: new Error('Could not fetch the data')
 		};
 	}
@@ -18,14 +30,11 @@
 
 <script lang="ts">
 	import { blur } from 'svelte/transition';
-	export let data: any;
-	const socials = data.socials;
-	const games = data.games;
-	const credits = data.credits;
+	export let self: any, socials: any, games: any, credits: any, discordCard: any;
 </script>
 
 <svelte:head>
-	<title>Contact | {data.self.name}</title>
+	<title>Contact | {self.name}</title>
 </svelte:head>
 <section class="container section" id="contactme" transition:blur={{ duration: 500 }}>
 	<div id="title">
@@ -34,8 +43,8 @@
 	</div>
 	<div id="secdesc">
 		<p>
-			You can reach me out via email at <a href="mailto:{data.self.email}">{data.self.email}</a> or via
-			socials below :
+			You can reach me out via email at <a href="mailto:{self.email}">{self.email}</a> or via socials
+			below :
 		</p>
 	</div>
 	<div class="image-container">
@@ -55,11 +64,11 @@
 	</div>
 	<div id="discord">
 		<h2 id="discord-title">Me at Discord</h2>
-		<a href="https://discord.com/users/788260234409672754">
+		<a href="https://discord.com/users/{discordCard.userId}">
 			<img
 				id="discord-card"
-				src="https://lanyard-profile-readme.vercel.app/api/788260234409672754?theme=light"
-				alt="Discord Card"
+				src="https://lanyard-profile-readme.vercel.app/api/{discordCard.userId}?theme=light"
+				alt={discordCard.altText}
 			/>
 		</a>
 	</div>

@@ -1,16 +1,22 @@
 <script lang="ts" context="module">
 	export async function load({ fetch }) {
-		const res = await fetch(`/api/getData.json`);
-		const { data } = await res.json();
-		if (res.ok) {
+		const selfRes = await fetch(`/api/self.json`);
+		const waifusRes = await fetch(`/api/waifus.json`);
+		const skillsRes = await fetch(`/api/skills.json`);
+		const { self } = await selfRes.json();
+		const { waifus } = await waifusRes.json();
+		const { skills } = await skillsRes.json();
+		if (selfRes.ok && waifusRes.ok && skillsRes.ok) {
 			return {
 				props: {
-					data
+					self,
+					waifus,
+					skills
 				}
 			};
 		}
 		return {
-			status: res.status,
+			status: selfRes.status,
 			error: new Error('Could not fetch the data')
 		};
 	}
@@ -18,14 +24,14 @@
 
 <script lang="ts">
 	import { blur } from 'svelte/transition';
-	export let data: any;
-	let name = data.self.name;
-	let avatarUrl = data.self.avatarUrl;
-	let waifus = data.waifus;
-	let languageSkills = data.langSkills;
-	let frontEndSkills = data.frontEndSkills;
-	let backEndSkills = data.backEndSkills;
-	let toolsSkills = data.toolsSkills;
+	export let self: any, waifus: any, skills: any;
+	let name = self.name;
+	let avatarUrl = self.avatarUrl;
+	let waifu = waifus;
+	let languageSkills = skills.langSkills;
+	let frontEndSkills = skills.frontEndSkills;
+	let backEndSkills = skills.backEndSkills;
+	let toolsSkills = skills.toolsSkills;
 	if (!avatarUrl) avatarUrl = `https://cdn.statically.io/avatar/shape=circle/${name}`;
 </script>
 
@@ -47,7 +53,7 @@
 		<p>
 			Hello, my name is <strong>{name}</strong>. Usually called
 			<strong>Gifaldy / Azka / Falcxxdev (at the internet)</strong>. Born and live in
-			<a href="https://www.bandung.go.id/">{data.self.born_and_live_at}</a>.
+			<a href="https://www.bandung.go.id/">{self.born_and_live_at}</a>.
 		</p>
 		<br />
 		<p>

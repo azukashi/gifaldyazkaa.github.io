@@ -1,16 +1,16 @@
 <script lang="ts" context="module">
 	export async function load({ fetch }) {
-		const res = await fetch(`/api/getData.json`);
-		const { data } = await res.json();
-		if (res.ok) {
+		const selfRes = await fetch(`/api/self.json`);
+		const { self } = await selfRes.json();
+		if (selfRes.ok) {
 			return {
 				props: {
-					data
+					self
 				}
 			};
 		}
 		return {
-			status: res.status,
+			status: selfRes.status,
 			error: new Error('Could not fetch the data')
 		};
 	}
@@ -18,14 +18,14 @@
 
 <script lang="ts">
 	import { blur } from 'svelte/transition';
-	export let data: any;
+	export let self: any;
 	const handleClick = () => {
 		window.location.href = '/about';
 	};
 </script>
 
 <svelte:head>
-	<title>Home | {data.self.name}</title>
+	<title>Home | {self.name}</title>
 	<meta name="theme-color" id="color-theme" content="#FFFFFF" />
 </svelte:head>
 
@@ -34,7 +34,7 @@
 		<h1>
 			👋 Hi,
 			<br />
-			I'm {data.self.name},
+			I'm {self.name},
 			<br />
 			Website developer
 		</h1>
