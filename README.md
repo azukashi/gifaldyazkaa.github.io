@@ -50,12 +50,9 @@ $ dum preview
 ## 🖥️ Tech Stack
 
 - [Boxicons](https://boxicons.com)
-- [Page.js](https://npmjs.com/package/page)
 - [SASS](https://sass-lang.com)
-- [Svelte](https://svelte.dev)
-- [Vite](https://vitejs.dev)
-- [Vite Plugin PWA](https://vite-plugin-pwa.netlify.app)
-- [Workbox](https://developers.google.com/web/tools/workbox)
+- [SvelteKit](https://svelte.dev)
+- [TypeScript](https://www.typescriptlang.org)
 
 ## ❤️ Credits
 
