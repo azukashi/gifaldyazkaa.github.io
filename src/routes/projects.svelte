@@ -1,16 +1,19 @@
 <script lang="ts" context="module">
 	export async function load({ fetch }) {
-		const res = await fetch(`/api/getData.json`);
-		const { data } = await res.json();
-		if (res.ok) {
+		const projectRes = await fetch(`/api/projects.json`);
+		const selfRes = await fetch(`/api/self.json`);
+		const { projects } = await projectRes.json();
+		const { self } = await selfRes.json();
+		if (projectRes.ok && selfRes.ok) {
 			return {
 				props: {
-					data
+					self,
+					projects
 				}
 			};
 		}
 		return {
-			status: res.status,
+			status: projectRes.status,
 			error: new Error('Could not fetch the data')
 		};
 	}
@@ -18,12 +21,11 @@
 
 <script lang="ts">
 	import { blur } from 'svelte/transition';
-	export let data: any;
-	const projects = data.projects;
+	export let self: any, projects: any;
 </script>
 
 <svelte:head>
-	<title>Projects | {data.self.name}</title>
+	<title>Projects | {self.name}</title>
 </svelte:head>
 <section
 	class="container section section__height"
