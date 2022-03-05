@@ -131,16 +131,10 @@ export async function get() {
 		// [Credits] Art credits - Will be displayed at /contacts
 		credits: [
 			{
-				type: 'Website Favicon',
-				artist: '@13_ikari',
-				username: '13_ikari',
-				tweets: 'https://twitter.com/13_ikari/status/1475820302420840453'
-			},
-			{
-				type: 'My Profile Picture',
-				artist: '@divergenceok',
-				username: 'divergenceok',
-				tweets: 'https://twitter.com/divergenceok/status/1465697613152354309'
+				type: 'Both My Profile Picture and Website Favicon',
+				artist: '@cofyuuun',
+				username: 'cofyuuun',
+				tweets: 'https://twitter.com/cofyuuun/status/1400363994506874880'
 			}
 		]
 	};
