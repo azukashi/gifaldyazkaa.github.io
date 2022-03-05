@@ -56,8 +56,7 @@ $ dum preview
 
 ## ❤️ Credits
 
-- Website Favicon is drawn by [@13_ikari](https://twitter.com/13_ikari) | [See tweet](https://twitter.com/13_ikari/status/1475820302420840453)
-- My Profile Picture is drawn by [@divergenceok](https://twitter.com/divergenceok) | [See tweet](https://twitter.com/divergenceok/status/1465697613152354309)
+- Both My Profile Picture and Website Favicon is drawn by [@cofyuuun](https://twitter.com/cofyuuun) | [See tweet](https://twitter.com/cofyuuun/status/1400363994506874880)
 
 ## 📃 License
 
