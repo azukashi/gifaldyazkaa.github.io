@@ -20,7 +20,7 @@ export async function get() {
 			name: 'Koyorin',
 			description: 'Maid and Helper Discord Bot for My Private Discord Servers',
 			repo_name: 'koyorin',
-			demo_url: 'https://gifaldyazka.is-a.dev/koyorin',
+			demo_url: 'https://falcxxdev.ml/koyorin',
 			img_preview: 'https://i.upload.systems/64lMDjGm',
 			emoji: '🧪'
 		},
