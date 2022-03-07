@@ -261,10 +261,10 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-boxicons@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-2.1.1.tgz#84ccb3e680d142d3eecc38b15981352f6fa57a9a"
-  integrity sha512-+bOPcCnCM/7ZLDeKPB7OPqmtFmft58HfDZVEJLJx7ArDZhIDGY+wXSTUhC2eD3IGqv/UsgoDNyOKgIFoEiomGg==
+boxicons@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-2.1.2.tgz#38e4a1368b1f07320425508ab6949aefd951fe64"
+  integrity sha512-NAEj0xmE64Hv6q7yjvyEVsdA+XIESHLe/S/bkCd2A197LQNpZ5ftopxmD3DMatZ1lndGIzxxqqFnWrD1oB3IIg==
   dependencies:
     "@webcomponents/webcomponentsjs" "^2.0.2"
     prop-types "^15.6.0"
