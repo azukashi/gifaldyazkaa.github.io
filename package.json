@@ -33,7 +33,6 @@
 	"dependencies": {
 		"@sveltejs/adapter-static": "1.0.0-next.28",
 		"boxicons": "2.1.2",
-		"mongoose": "6.2.5",
 		"sass": "1.49.9"
 	}
 }
