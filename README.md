@@ -49,9 +49,10 @@ $ dum preview
 
 ## 🖥️ Tech Stack
 
-- [Boxicons](https://boxicons.com)
+- [Material Icons](https://fonts.google.com/icons)
+- [NProgress](https://npmjs.com/package/nprogress)
 - [SASS](https://sass-lang.com)
-- [SvelteKit](https://svelte.dev)
+- [SvelteKit](https://kit.svelte.dev)
 - [TypeScript](https://www.typescriptlang.org)
 
 ## ❤️ Credits
