@@ -9,28 +9,28 @@
 			<ul class="nav__list">
 				<li class="nav__item">
 					<a href="/" class="nav__link">
-						<i class="bx bx-home-alt nav__icon" />
+						<span class="material-icons-outlined nav__icon">home</span>
 						<span class="nav__name">Home</span>
 					</a>
 				</li>
 
 				<li class="nav__item">
 					<a href="/about" class="nav__link">
-						<i class="bx bx-user nav__icon" />
+						<span class="material-icons-outlined nav__icon">account_circle</span>
 						<span class="nav__name">About</span>
 					</a>
 				</li>
 
 				<li class="nav__item">
 					<a href="/projects" class="nav__link">
-						<i class="bx bx-briefcase-alt nav__icon" />
+						<span class="material-icons-outlined nav__icon">public</span>
 						<span class="nav__name">Projects</span>
 					</a>
 				</li>
 
 				<li class="nav__item">
 					<a href="/contact" class="nav__link">
-						<i class="bx bx-message-square-detail nav__icon" />
+						<span class="material-icons-outlined nav__icon">chat</span>
 						<span class="nav__name">Contact</span>
 					</a>
 				</li>
