@@ -1,36 +1,37 @@
-[![Site Preview](https://cdn.upload.systems/uploads/QIw7NyWx.png)](https://falcxxdev.ml)
+[![Site Preview](https://cdn.upload.systems/uploads/ZsVdkb62.png)](https://falcxxdev.ml)
 
-<hr />
+## ➡️ Developing
 
-## ➡️ Getting Started
+### 🛠️ Requirements
 
-### 📥 Clone this Repository
+A node.js >= 16.12.0 with [yarn](https://yarnpkg.com) is recommended.
 
-```sh
-# Using Git
-$ git clone https://github.com/gifaldyazkaa/gifaldyazkaa.github.io.git
-
-# Using GitHub CLI
-$ gh repo clone gifaldyazkaa/gifaldyazkaa.github.io
-
-$ cd gifaldyazkaa.github.io
-```
-
-### 📦 Install all dependecies
+### 📦 Install dependencies
 
 ```sh
-# Yarn
 $ yarn install
+#
+# yarn install v1.22.18
+# [1/4] 🔍  Resolving packages...
+# [2/4] 🚚  Fetching packages...
+# [3/4] 🔗  Linking dependencies...
+# [4/4] 🔨  Building fresh packages...
+#
+# ✨  Done in 4.38s.
 ```
 
-### 🏃 Run the app in Development server
+### 🏃 Serve and Start Development server
 
 ```sh
-# Using yarn
 $ yarn run dev
-
-# Using dum
-$ dum dev
+#
+# yarn run v1.22.18
+# $ svelte-kit dev --host=0.0.0.0
+#
+#   SvelteKit v1.0.0-next.xxx
+#
+#   local:   http://localhost:3000
+#   network: http://[hostname]:3000
 ```
 
 ### :tada: Open http://localhost:3000 to see the result!
@@ -38,13 +39,25 @@ $ dum dev
 ### ⚡ Optimizing for Production
 
 ```sh
-# Using yarn
+# Build
 $ yarn run build
-$ yarn run preview
+#
+# yarn run v1.22.18
+# $ svelte-kit build
+# vite v2.8.4 building for production...
+# ...
+# Run npm run preview to preview your production build locally.
 
-# Using dum
-$ dum build
-$ dum preview
+# Preview Build Result
+$ yarn run preview
+#
+# yarn run v1.22.18
+# $ svelte-kit preview --host=0.0.0.0
+#
+#   SvelteKit v1.0.0-next.xxx
+#
+#   local:   http://localhost:3000
+#   network: http://[hostname]:3000
 ```
 
 ## 🖥️ Tech Stack
@@ -54,10 +67,6 @@ $ dum preview
 - [SASS](https://sass-lang.com)
 - [SvelteKit](https://kit.svelte.dev)
 - [TypeScript](https://www.typescriptlang.org)
-
-## ❤️ Credits
-
-- Both My Profile Picture and Website Favicon is drawn by [@cofyuuun](https://twitter.com/cofyuuun) | [See tweet](https://twitter.com/cofyuuun/status/1400363994506874880)
 
 ## 📃 License
 
