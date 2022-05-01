@@ -4,7 +4,7 @@ export async function get() {
 			name: '湊あくあ Fanpage',
 			description: '湊あくあ Fanpage created with Svelte and Sveltestrap.',
 			repo_name: 'aqua-fanpage',
-			demo_url: 'https://aqua-fanpage.vercel.app',
+			demo_url: 'https://aqua.falcxxdev.ml',
 			img_preview: 'https://i.upload.systems/psUYhn2p',
 			emoji: '⚓'
 		},
@@ -17,20 +17,20 @@ export async function get() {
 			emoji: '🤖'
 		},
 		{
-			name: 'Koyorin',
-			description: 'Maid and Helper Discord Bot for My Private Discord Servers',
-			repo_name: 'koyorin',
-			demo_url: 'https://falcxxdev.ml/koyorin',
+			name: 'Zeta',
+			description: 'Helper Discord Bot for My Private Discord Server',
+			repo_name: 'zeta',
+			demo_url: 'https://zetaa.gq/',
 			img_preview: 'https://i.upload.systems/64lMDjGm',
-			emoji: '🧪'
+			emoji: '📜'
 		},
 		{
-			name: 'Dotfiles',
-			description: 'My dotfiles configuration for i3-gaps',
-			repo_name: 'dotfiles',
-			demo_url: '#',
+			name: 'Wangy wangy',
+			description: 'Generator Tools that created for fun and designed for weebs',
+			repo_name: 'wagny-wangy',
+			demo_url: 'https://wangy.falcxxdev.ml',
 			img_preview: 'https://i.upload.systems/1pukVaLj',
-			emoji: '🔧'
+			emoji: '🌸'
 		}
 	];
 

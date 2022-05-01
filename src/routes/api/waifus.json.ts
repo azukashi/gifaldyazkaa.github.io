@@ -2,21 +2,21 @@ export async function get() {
 	const waifus = [
 		{
 			name: {
-				jp: '浦和ハナコ',
-				en: 'Urawa Hanako'
+				jp: 'チェシャー',
+				en: 'Cheshire'
 			},
-			from: 'Blue Archive',
-			link: 'https://bluearchive.wiki/wiki/Hanako',
-			fromLink: 'https://bluearchive.jp'
+			from: 'Azur Lane',
+			link: 'https://azurlane.koumakan.jp/wiki/Cheshire',
+			fromLink: 'https://azurlane.yo-star.com'
 		},
 		{
 			name: {
-				jp: 'パーミャチ・メルクーリヤ',
-				en: "Pamiat' Merkuria"
+				jp: 'ベスティア・ゼータ',
+				en: 'Vestia Zeta'
 			},
-			from: 'Azur Lane',
-			link: 'https://azurlane.koumakan.jp/wiki/Pamiat_Merkuria',
-			fromLink: 'https://azurlane.yo-star.com'
+			from: 'hololiveID Gen 3',
+			link: 'https://virtualyoutuber.fandom.com/id/wiki/Vestia_Zeta',
+			fromLink: 'https://www.hololive.tv/indonesia'
 		}
 	];
 

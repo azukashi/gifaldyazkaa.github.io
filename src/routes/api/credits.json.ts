@@ -2,9 +2,9 @@ export async function get() {
 	const credits = [
 		{
 			type: 'Both My Profile Picture and Website Favicon',
-			artist: '@cofyuuun',
-			username: 'cofyuuun',
-			tweets: 'https://twitter.com/cofyuuun/status/1400363994506874880'
+			artist: '@rimuu',
+			username: 'rimuuarts',
+			tweets: 'https://deviantart.com/rimuu/art/Cheshire-854695892'
 		}
 	];
 

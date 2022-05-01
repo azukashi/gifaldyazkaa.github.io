@@ -14,7 +14,7 @@ export async function get() {
 		},
 		{
 			name: 'Facebook',
-			url: 'https://facebook.com/falcxx',
+			url: 'https://facebook.com/falcxxdev',
 			imgUrl:
 				'https://img.shields.io/badge/-Facebook-%231877F2?style=for-the-badge&logo=facebook&logoColor=white'
 		},
