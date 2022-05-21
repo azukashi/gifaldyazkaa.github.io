@@ -11,7 +11,7 @@ export async function get() {
 		{
 			name: 'Exxyll Discord Bot',
 			description: 'Multipurpose Discord Bot with Commands for Fun, Games, and many more!',
-			repo_name: 'exxyll-origin',
+			repo_name: 'exxyll',
 			demo_url: '#',
 			img_preview: '#',
 			emoji: '🤖'
