@@ -24,6 +24,7 @@
 
 <script lang="ts">
 	import { blur } from 'svelte/transition';
+	import Profile from '$lib/Profile.svelte';
 	export let self: any, waifus: any, skills: any;
 	let name = self.name;
 	let avatarUrl = self.avatarUrl;
@@ -46,7 +47,7 @@
 	<h2 class="section__title">About Me</h2>
 	<hr />
 	<div id="image-container">
-		<img id="profile" src={avatarUrl} alt={name} />
+		<Profile url={avatarUrl} {name} />
 	</div>
 	<div id="paragraph">
 		<p>
@@ -146,14 +147,6 @@
 		justify-content: center;
 		padding-top: 10px;
 		padding-bottom: 10px;
-	}
-	#profile {
-		height: 8.5rem;
-		width: 8.5rem;
-		border-radius: 50%;
-		border: solid 2px #fff;
-		text-align: center;
-		pointer-events: none;
 	}
 	.pb {
 		padding-bottom: 7px;
