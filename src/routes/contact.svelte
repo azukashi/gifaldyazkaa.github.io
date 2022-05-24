@@ -56,10 +56,9 @@
 	</div>
 	<div id="we-hate-form-input">
 		<p>
-			Where is the form input? Nah, I don't have time to read all incoming messages from Form
-			inputs.
+			Where is the form input? No. I'm not using form input <s>cuz it's cringe</s>.
 			<br />
-			So, Reach me via email or socials instead of using form input.
+			Reach me via email or socials instead of using form input.
 		</p>
 	</div>
 	<div id="discord">
