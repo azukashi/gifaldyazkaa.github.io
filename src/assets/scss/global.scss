@@ -8,8 +8,8 @@
 	--header-height: 3rem;
 
 	/* Colors */
-	--hue: 354;
-	--sat: 27%;
+	--hue: 349;
+	--sat: 19%;
 	--first-color: hsl(var(--hue), var(--sat), 60%);
 	--first-color-alt: hsl(var(--hue), var(--sat), 59%);
 	--scrollbar-hover: hsl(var(--hue), var(--sat), 54%);
@@ -54,6 +54,7 @@ body {
 	font-size: var(--normal-font-size);
 	background-color: var(--body-color);
 	color: var(--text-color);
+	scroll-behavior: smooth;
 }
 
 ul {
