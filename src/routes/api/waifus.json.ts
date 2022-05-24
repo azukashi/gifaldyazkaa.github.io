@@ -2,11 +2,11 @@ export async function get() {
 	const waifus = [
 		{
 			name: {
-				jp: 'チェシャー',
-				en: 'Cheshire'
+				jp: 'エルビング',
+				en: 'Elbing'
 			},
 			from: 'Azur Lane',
-			link: 'https://azurlane.koumakan.jp/wiki/Cheshire',
+			link: 'https://azurlane.koumakan.jp/wiki/Elbing',
 			fromLink: 'https://azurlane.yo-star.com'
 		},
 		{
@@ -16,7 +16,7 @@ export async function get() {
 			},
 			from: 'hololiveID Gen 3',
 			link: 'https://virtualyoutuber.fandom.com/id/wiki/Vestia_Zeta',
-			fromLink: 'https://www.hololive.tv/indonesia'
+			fromLink: 'https://hololive.tv/indonesia'
 		}
 	];
 
