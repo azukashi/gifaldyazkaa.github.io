@@ -12,6 +12,7 @@ export async function get() {
 			{ name: 'CSS' },
 			{ name: 'SASS' },
 			{ name: 'SvelteKit' },
+			{ name: 'Vue.js' },
 			{ name: 'Bootstrap' }
 		],
 		backEndSkills: [{ name: 'Node.js' }, { name: 'MySQL' }, { name: 'MongoDB' }],

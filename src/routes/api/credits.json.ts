@@ -2,9 +2,9 @@ export async function get() {
 	const credits = [
 		{
 			type: 'Both My Profile Picture and Website Favicon',
-			artist: '@96mimo414',
-			username: '96mimo414',
-			tweets: 'https://twitter.com/96mimo414/status/1519985840356700160'
+			artist: 'komeshiro_kasu (@kasu1923)',
+			username: 'kasu1923',
+			tweets: 'https://twitter.com/kasu1923/status/1395048797378551811'
 		}
 	];
 
