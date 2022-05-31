@@ -80,8 +80,8 @@
 	}
 	#gr1 {
 		transform-origin: 125px 125px;
-		-webkit-transition: -webkit-transform 1s ease-in-out;
-		transition: transform 1s ease-in-out;
+		-webkit-transition: -webkit-transform 0.75s ease-in-out;
+		transition: transform 0.75s ease-in-out;
 	}
 
 	#gr1:hover {
