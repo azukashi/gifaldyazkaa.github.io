@@ -72,7 +72,7 @@
 		</a>
 	</div>
 	<div id="game">
-		<h2 id="game-title">Add me in the game</h2>
+		<h2 id="game-title">Play with me</h2>
 		<div class="image-container">
 			{#each games as { name, imgUrl }}
 				<img id="game-badge" class="image" src={imgUrl} alt={name} />
