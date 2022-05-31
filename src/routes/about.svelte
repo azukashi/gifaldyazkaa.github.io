@@ -58,12 +58,13 @@
 		<br />
 		<p>
 			I started learning about Data and Algorithm since 2020 with C++ language. And now i spend more
-			time to explore Web development using JavaScript, Node.js, and Svelte.
+			time to explore Web development using JavaScript, Node.js, Svelte, and Vue.js.
 		</p>
 		<br />
 		<p>
-			Umm, I don't know, But i have some weird obsession with Virtual YouTubers. I can't control
-			myself when watching their livestream. Hehehe...
+			Having weird obsession with ships & virtual youtuber. I don't know why but the fact is i've
+			been setted a ship to be my permanent waifu. Jump to
+			<a href="#waifus">Current waifu</a> and see it.
 		</p>
 	</div>
 	<div id="skills">
@@ -104,17 +105,26 @@
 		</div>
 	</div>
 	<div id="waifus">
-		<h2 class="pb">Current waifus</h2>
-		<p class="pb">Here are my current waifus</p>
+		<h2 class="pb">Current waifu</h2>
+		<p class="pb">
+			Beloved character that i am very <a
+				href="https://www.urbandictionary.com/define.php?term=Simp"
+				target="_blank">simped</a
+			> to
+		</p>
 		<ul>
 			{#each waifus as { name, from, link, fromLink }}
 				<li>
-					<a href={link}>{name.jp} ／ {name.en}</a>
+					<a href={link} target="_blank">{name.jp} ／ {name.en}</a>
 					from
-					<a href={fromLink}>{from}</a>
+					<a href={fromLink} target="_blank">{from}</a>
 				</li>
 			{/each}
 		</ul>
+		<p id="info">
+			Little announcement here. This is my last time changing waifu (maybe). I've been thinking
+			overnight and agreed to make Sirius as my permanent waifu 😳
+		</p>
 	</div>
 </section>
 
@@ -167,5 +177,11 @@
 		-webkit-box-align: start;
 		flex-direction: column;
 		padding-bottom: 7px;
+	}
+	#info {
+		margin-top: 4px;
+		padding-bottom: 50px;
+		font-size: 12.5px;
+		font-family: 'Lexend', sans-serif;
 	}
 </style>
