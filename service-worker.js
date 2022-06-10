@@ -1,6 +1,6 @@
-const timestamp = 1654878285685;
+const timestamp = 1654880272012;
 const build = [
-  "/_app/start-8f83ef15.js",
+  "/_app/start-be1aeb1d.js",
   "/_app/pages/__layout.svelte-2bc139e5.js",
   "/_app/assets/pages/__layout.svelte-d7b775d8.css",
   "/_app/pages/__error.svelte-6928ae25.js",
