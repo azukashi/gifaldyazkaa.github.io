@@ -62,11 +62,11 @@ $ yarn run preview
 
 ## 🖥️ Tech Stack
 
-- [Material Icons](https://fonts.google.com/icons)
-- [NProgress](https://npmjs.com/package/nprogress)
-- [SASS](https://sass-lang.com)
-- [SvelteKit](https://kit.svelte.dev)
-- [TypeScript](https://www.typescriptlang.org)
+-   [Material Icons](https://fonts.google.com/icons)
+-   [NProgress](https://npmjs.com/package/nprogress)
+-   [SASS](https://sass-lang.com)
+-   [SvelteKit](https://kit.svelte.dev)
+-   [TypeScript](https://www.typescriptlang.org)
 
 ## 📃 License
 

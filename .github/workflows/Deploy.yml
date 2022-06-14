@@ -1,29 +1,29 @@
 name: '[Deploy] Build'
 env:
-  CI: false
+    CI: false
 on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: '*/30 * * * *'
+    push:
+        branches:
+            - master
+    schedule:
+        - cron: '*/30 * * * *'
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🛎️︱Checkout
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: false
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 🛎️︱Checkout
+              uses: actions/checkout@v3
+              with:
+                  persist-credentials: false
 
-      - name: 🔧︱Install and Build
-        run: |
-          yarn
-          yarn run build
-      - name: 🚀︱Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
+            - name: 🔧︱Install and Build
+              run: |
+                  yarn
+                  yarn run build
+            - name: 🚀︱Deploy
+              uses: JamesIves/github-pages-deploy-action@releases/v3
+              with:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  BRANCH: gh-pages
+                  FOLDER: build
