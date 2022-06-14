@@ -100,9 +100,9 @@
         </div>
     </div>
     <div id="waifus">
-        <h2 class="pb">Current waifu</h2>
+        <h2 class="pb">Current waifus</h2>
         <p class="pb">
-            Beloved character that i am very <a
+            Beloved characters that i am very <a
                 href="https://www.urbandictionary.com/define.php?term=Simp"
                 target="_blank">simped</a
             > to
@@ -117,9 +117,13 @@
             {/each}
         </ul>
         <p id="info">
-            Little announcement here. This is my last time changing waifu (maybe). I've been thinking overnight and
-            agreed to make Sirius as my permanent waifu 😳
+            3 waifus?! yea. i was requested to have 3 waifus in one time. Here is the message. If you don't understand
+            what it means, just ignore this.
         </p>
+        <details>
+            <summary title="Really want to see the image? 🤨">Show image</summary>
+            <img class="req-img" src="https://cdn.upload.systems/uploads/DJdc0aMs.png" alt="Request message" />
+        </details>
     </div>
 </section>
 
@@ -145,6 +149,9 @@
         list-style: disc;
         margin-left: 18px;
         cursor: default;
+    }
+    details {
+        cursor: pointer;
     }
     /* Main section */
     #image-container {
@@ -175,8 +182,12 @@
     }
     #info {
         margin-top: 4px;
-        padding-bottom: 50px;
+        padding-bottom: 7px;
         font-size: 12.5px;
         font-family: 'Lexend', sans-serif;
+    }
+    .req-img {
+        margin-top: 4px;
+        padding-bottom: 7px;
     }
 </style>
