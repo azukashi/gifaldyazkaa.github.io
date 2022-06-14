@@ -1,8 +1,8 @@
-const timestamp = 1655237823593;
+const timestamp = 1655238171726;
 const build = [
-  "/_app/start-0658bb88.js",
+  "/_app/start-05849edd.js",
   "/_app/pages/__layout.svelte-f7de5c2b.js",
-  "/_app/assets/pages/__layout.svelte-fd165d13.css",
+  "/_app/assets/pages/__layout.svelte-7777d8bd.css",
   "/_app/pages/__error.svelte-d7d55974.js",
   "/_app/assets/pages/__error.svelte-5feb33a3.css",
   "/_app/pages/index.svelte-92ba702f.js",
@@ -11,8 +11,8 @@ const build = [
   "/_app/assets/pages/projects.svelte-87a757e2.css",
   "/_app/pages/contact.svelte-a4bd6a83.js",
   "/_app/assets/pages/contact.svelte-ecb7c8bb.css",
-  "/_app/pages/about.svelte-40370a84.js",
-  "/_app/assets/pages/about.svelte-61709a56.css",
+  "/_app/pages/about.svelte-1ff157c5.js",
+  "/_app/assets/pages/about.svelte-03ed68f4.css",
   "/_app/chunks/vendor-8ee6e785.js"
 ];
 const files = [
