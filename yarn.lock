@@ -909,10 +909,10 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-material-icons@1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-1.11.1.tgz#9dc4ad990df59c551a32767ecbb174f41c06ecd6"
-  integrity sha512-FCZ3mSoXzQ0UetDfhWpLOPG+duErvt1ALhnNt1TMB7GYHq5hvOqB0HE292qWcuVkCGxej2aARz//dz47zM3Cdg==
+material-icons@1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-1.11.2.tgz#c873d831894a03b92a2c84a594cf7d0a759927b0"
+  integrity sha512-maKSVQNQEHrHXjKTPTwH0141hR2bC8fFUaX4bJzzwVRs7jY+9A+jx0kH/lpgEGIPoYR8gho4iLDvWN3mBRL53A==
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
