@@ -8,18 +8,18 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 250 250"
-    id="profile"
+    class="root"
 >
     <defs>
-        <mask id="msk1">
+        <mask id="mask">
             <rect width="100%" height="100%" fill="black" />
             <circle cx="125" cy="125" r="100" fill="white" stroke-width="20" stroke="black" />
         </mask>
     </defs>
 
-    <image xlink:href={url} x="0" y="0" width="100%" height="100%" mask="url(#msk1)" />
+    <image xlink:href={url} x="0" y="0" width="100%" height="100%" mask="url(#mask)" />
 
-    <g id="gr1">
+    <g class="border">
         <circle
             id="blue"
             cx="125"
@@ -70,22 +70,19 @@
     </g>
 </svg>
 
-<style>
-    #profile {
+<style lang="scss">
+    .root {
         height: 11rem;
         width: 11rem;
-        /* border-radius: 50%; */
         text-align: center;
-        /* pointer-events: none; */
     }
-    #gr1 {
+    .border {
         transform-origin: 125px 125px;
         -webkit-transition: -webkit-transform 0.75s ease-in-out;
         transition: transform 0.75s ease-in-out;
-    }
-
-    #gr1:hover {
-        -webkit-transform: rotate(720deg);
-        transform: rotate(720deg);
+        &:hover {
+            -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+        }
     }
 </style>

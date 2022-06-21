@@ -41,7 +41,7 @@
         <h2 class="section__title">Contact Me</h2>
         <hr />
     </div>
-    <div id="secdesc">
+    <div class="description">
         <p>
             You can reach me out via email at <a href="mailto:{self.email}">{self.email}</a> or via socials below :
         </p>
@@ -98,24 +98,17 @@
     </div>
 </section>
 
-<style>
-    /* Base */
+<style lang="scss">
+    @import '../styles/variable';
+    @import '../styles/anchor';
+    // Base
     h2,
     p {
         cursor: default;
-        font-family: 'Lexend', sans-serif;
-    }
-    a {
-        color: rgb(18, 18, 211);
-    }
-    a:hover {
-        color: rgb(22, 22, 153);
-    }
-    a:visited {
-        color: rgb(18, 18, 211);
+        font-family: $lexend;
     }
     li {
-        font-family: 'Lexend', sans-serif;
+        font-family: $lexend;
         list-style: disc;
         margin-left: 18px;
         cursor: default;
@@ -123,11 +116,11 @@
     img {
         pointer-events: none;
     }
-    /* Main section */
+    // Main section
     .section__title {
         font-family: 'Lexend', sans-serif;
     }
-    #secdesc p {
+    .description p {
         margin-top: 15px;
     }
     .image-container {
@@ -141,7 +134,7 @@
         margin-top: 10px;
         font-size: 12px;
     }
-    /* Credits section */
+    // Credits section
     #discord-title,
     #game-title,
     #credits-title {

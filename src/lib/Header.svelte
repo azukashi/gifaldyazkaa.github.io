@@ -39,8 +39,9 @@
     </nav>
 </header>
 
-<style>
+<style lang="scss">
+    @import '../styles/variable';
     .header {
-        font-family: 'Lexend', sans-serif;
+        font-family: $lexend, sans-serif;
     }
 </style>

@@ -30,7 +30,7 @@
 <section class="container section section__height" id="projects" transition:blur={{ duration: 500 }}>
     <h2 class="section__title">Projects</h2>
     <hr />
-    <p id="description">Some projects that i've been working on</p>
+    <p class="description">Some projects that i've been working on</p>
     {#each projects as { name, description, repo_name, demo_url, img_preview, emoji }, i}
         <div class="list">
             <h1>{i + 1}. {emoji} {name}</h1>
@@ -43,42 +43,34 @@
             </p>
         </div>
     {/each}
-    <p id="info">
+    <p class="info">
         These projects are listed depending on GitHub Pins at <a href="https://github.com/gifaldyazkaa" target="_blank"
             >My GitHub Profile</a
         >.
     </p>
 </section>
 
-<style>
-    /* Base */
+<style lang="scss">
+    @import '../styles/anchor';
+    // Base
     h1,
     h2,
     p {
         cursor: default;
     }
-    a {
-        color: rgb(18, 18, 211);
-    }
-    a:hover {
-        color: rgb(13, 13, 118);
-    }
-    a:visited {
-        color: rgb(18, 18, 211);
-    }
-    /* Main section */
+    // Main section
     .section__title,
-    #description {
+    .description {
         font-family: 'Lexend', sans-serif;
     }
-    #description {
+    .description {
         margin-top: 15px;
         margin-bottom: 15px;
     }
     .list {
         margin-bottom: 15px;
     }
-    #info {
+    .info {
         padding-bottom: 90px;
         font-size: 10px;
         font-family: 'Lexend', sans-serif;

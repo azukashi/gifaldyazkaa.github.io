@@ -127,25 +127,18 @@
     </div>
 </section>
 
-<style>
-    /* Base */
+<style lang="scss">
+    @import '../styles/variable';
+    @import '../styles/anchor';
+    // Base
     h2,
     h4,
     p {
-        font-family: 'Lexend', sans-serif;
+        font-family: $lexend;
         cursor: default;
     }
-    a {
-        color: rgb(18, 18, 211);
-    }
-    a:hover {
-        color: rgb(22, 22, 153);
-    }
-    a:visited {
-        color: rgb(18, 18, 211);
-    }
     li {
-        font-family: 'Lexend', sans-serif;
+        font-family: $lexend;
         list-style: disc;
         margin-left: 18px;
         cursor: default;
@@ -153,7 +146,7 @@
     details {
         cursor: pointer;
     }
-    /* Main section */
+    // Main section
     #image-container {
         display: flex;
         justify-content: center;

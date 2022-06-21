@@ -1,9 +1,9 @@
 <script lang="ts">
-    import NProgress from 'nprogress';
-    import Header from '$lib/Header.svelte';
     import { navigating } from '$app/stores';
-    import '../assets/scss/global.scss';
+    import Header from '$lib/Header.svelte';
     import 'material-icons/iconfont/outlined.css';
+    import NProgress from 'nprogress';
+    import '../main.scss';
 
     NProgress.configure({
         minimum: 0.16,

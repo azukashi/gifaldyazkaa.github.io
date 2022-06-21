@@ -38,37 +38,37 @@
             <br />
             Website developer
         </h1>
-        <button id="button" on:click={handleClick}>About me →</button>
+        <button class="button" on:click={handleClick}>About me →</button>
     </section>
 </main>
 
-<style>
-    /* Main section */
+<style lang="scss">
+    @import '../styles/variable';
+    // Main section
     .greeting {
         margin-top: 5rem;
-        /* margin-bottom: 9rem; */
         font-size: 1.5em;
         cursor: default;
         overflow-x: hidden;
-        font-family: 'Poppins', sans-serif;
+        font-family: $poppins;
         padding-bottom: 230px;
     }
-    #button {
+    .button {
         height: 2rem;
         width: 7.4rem;
         margin-top: 1rem;
         background-color: rgba(255, 255, 255, 0.05);
         cursor: pointer;
-        border: solid 1px var(--text-color);
+        border: solid 1px $text-color;
         border-radius: 15px;
-        color: var(--text-color);
+        color: $text-color;
         font-family: 'Lexend', sans-serif;
         text-align: center;
         font-size: 1rem;
         transition: 0.2s ease-in-out;
-    }
-    #button:hover {
-        background-color: var(--text-color);
-        color: var(--container-color);
+        &:hover {
+            background-color: $text-color;
+            color: $container-color;
+        }
     }
 </style>

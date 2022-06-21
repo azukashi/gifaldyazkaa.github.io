@@ -29,24 +29,17 @@
     </div>
 </section>
 
-<style>
+<style lang="scss">
+    @import '../styles/variable';
+    // Base
     h1,
     h2,
     p {
         text-align: center;
-        font-family: 'Lexend', sans-serif;
+        font-family: $lexend;
         cursor: default;
     }
-    a {
-        color: rgb(18, 18, 211);
-    }
-    a:hover {
-        color: rgb(13, 13, 118);
-    }
-    a:visited {
-        color: rgb(18, 18, 211);
-    }
-    /* Main section */
+    // Main section
     #sad {
         margin-top: 7rem;
         font-size: 50px;
