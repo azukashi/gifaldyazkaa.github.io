@@ -1,0 +1,13 @@
+.section {
+    padding: 4.5rem 0 2rem;
+    &__title {
+        font-size: $h1-font-size;
+        color: $title-color;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    &__height {
+        height: 100vh;
+    }
+}

@@ -1,0 +1,133 @@
+@import './styles/variable';
+@import './styles/fonts';
+@import './styles/section';
+@import './styles/navbar';
+@import './styles/nprogress';
+
+// Media query
+@media screen and (min-width: 968px) {
+    :root {
+        --h1-font-size: 2.25rem;
+        --normal-font-size: 1rem;
+    }
+}
+
+// Base
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: $header-height 0 0 0;
+    font-family: $poppins;
+    font-size: $normal-font-size;
+    background-color: $body-color;
+    color: $text-color;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Layout
+.container {
+    max-width: 868px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+// Header
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $container-color;
+    z-index: $z-fixed;
+    transition: 0.4s;
+}
+
+// Active link
+.active-link {
+    position: relative;
+    color: $first-color;
+    transition: 0.3s;
+}
+
+// Small device
+@media screen and (max-width: 320px) {
+    .nav__name {
+        display: none;
+    }
+}
+
+// Medium device
+@media screen and (min-width: 576px) {
+    .nav__list {
+        justify-content: center;
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        margin: 0;
+    }
+    .section {
+        padding: 7rem 0 2rem;
+    }
+    .nav {
+        height: calc($header-height + 1.5rem);
+    }
+    .nav__img {
+        display: none;
+    }
+    .nav__icon {
+        display: none !important;
+    }
+    .nav__name {
+        font-size: $normal-font-size;
+    }
+    .nav__link:hover {
+        color: $first-color;
+        text-decoration: underline;
+    }
+    .active-link::before {
+        content: '';
+        position: absolute;
+        bottom: -0.75rem;
+        width: 4px;
+        height: 4px;
+        background-color: $first-color;
+        border-radius: 50%;
+    }
+}
+
+// Large device
+@media screen and (min-width: 1024px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+// Change background header
+.scroll-header {
+    box-shadow: 0 1px 12px hsla($hue, $saturation, 15%, 0.15);
+}

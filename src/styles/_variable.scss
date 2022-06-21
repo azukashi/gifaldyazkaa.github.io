@@ -1,0 +1,26 @@
+// Colors
+$hue: 303;
+$saturation: 36%;
+$first-color: hsla($hue, $saturation, 60%);
+$first-color-alt: hsla($hue, $saturation, 59%);
+$scrollbar-hover: hsla($hue, $saturation, 54%);
+$scrollbar-active: hsla($hue, $saturation, 44%);
+$title-color: hsla($hue, 12%, 15%);
+$text-color: hsla($hue, 8%, 35%);
+$body-color: hsla($hue, 100%, 99.3%);
+$container-color: #fff;
+
+// Fonts & Typography
+$open-sans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$lexend: 'Lexend', sans-serif;
+$h1-font-size: 1.5rem;
+$normal-font-size: 0.938rem;
+$tiny-font-size: 0.625rem;
+
+// Z Index
+$z-tooltip: 10;
+$z-fixed: 100;
+
+// Header height
+$header-height: 3rem;
