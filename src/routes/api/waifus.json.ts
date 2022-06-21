@@ -11,6 +11,15 @@ export async function get() {
         },
         {
             name: {
+                jp: '湊あくあ',
+                en: 'Minato Aqua',
+            },
+            from: 'hololive',
+            link: 'https://twitter.com/minatoaqua',
+            fromLink: 'https://hololive.tv',
+        },
+        {
+            name: {
                 jp: 'ゼータ',
                 en: 'Vestia Zeta',
             },

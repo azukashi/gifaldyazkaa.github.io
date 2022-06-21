@@ -117,7 +117,7 @@
             {/each}
         </ul>
         <p id="info">
-            3 waifus?! yea. i was requested to have 3 waifus in one time. Here is the message. If you don't understand
+            4 waifus?! yea. i was requested to have 4 waifus in one time. Here is the message. If you don't understand
             what it means, just ignore this.
         </p>
         <details>
