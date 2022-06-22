@@ -1,5 +1,5 @@
 [![Project banner](https://cdn.upload.systems/uploads/ZsVdkb62.png)](https://falcxxdev.ml)
-![Vercel status](https://img.shields.io/github/deployments/gifaldyazkaa/gifaldyazkaa.github.io/Production?label=Vercel&logo=vercel&logoColor=%23000&style=for-the-badge) ![CI status](https://img.shields.io/github/workflow/status/gifaldyazkaa/gifaldyazkaa.github.io/%5BPrettier%20&%20ESLint%5D%20Lint%20Checking?label=CI&logo=github-actions&style=for-the-badge)
+![Vercel status](https://img.shields.io/github/deployments/gifaldyazkaa/gifaldyazkaa.github.io/Production?label=Vercel&logo=vercel&logoColor=%23000&style=for-the-badge) ![CI status](https://img.shields.io/github/workflow/status/gifaldyazkaa/gifaldyazkaa.github.io/%5BPrettier%20&%20ESLint%5D%20Lint%20Checking?label=CI&logo=github-actions&style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/gifaldyazkaa.github.io?logo=github&style=for-the-badge)
 
 ## ➡️ Developing
 
